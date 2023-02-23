@@ -5,7 +5,7 @@ namespace StorageAccount.Repository
 {
     public class FileStorage
     {
-        public static string connectionString="DefaultEndpointsProtocol=https;AccountName=azstorageaccount12;AccountKey=0djE6doR0Mz1oOvVWstAyGv2yWEa0rmsOmtjexe6aEC48FupeOsSazlqXFnEkCyE8DD1vf+w/Bz6+AStJlwxRQ==;EndpointSuffix=core.windows.net";
+        public static string connectionString="DefaultEndpointsProtocol=https;AccountName=saaritram;AccountKey=cn7fSh6+eKZ0hx7BcV6zWOp2rUOMsnYJf1BYX19Awm+JERvGRAMd+6Eh7YsGXVd0BUDEYhzuw6Pv+AStyfOQuA==;EndpointSuffix=core.windows.net";
         static ShareServiceClient shareServiceClient=null;
         public static async Task CreateFile(string fileName)
         {
@@ -85,7 +85,7 @@ namespace StorageAccount.Repository
         }
         public static async Task DownloadFile(string directoryName,string fileShareName,string fileName)
         {
-            string path=@"\"+fileName;
+            string path=@"C:\Code\Demo\IOTStorageDemo\Downloads\"+fileName;
             shareServiceClient=new ShareServiceClient(connectionString);
             var serviceClient=shareServiceClient.GetShareClient(fileShareName);
             var dir=serviceClient.GetDirectoryClient(directoryName);
