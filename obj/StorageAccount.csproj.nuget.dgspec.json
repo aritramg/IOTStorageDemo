@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\M1084126\\Desktop\\StorageAccount1\\StorageAccount\\StorageAccount.csproj": {}
+    "C:\\Code\\Demo\\IOTStorageDemo\\StorageAccount.csproj": {}
   },
   "projects": {
-    "C:\\Users\\M1084126\\Desktop\\StorageAccount1\\StorageAccount\\StorageAccount.csproj": {
+    "C:\\Code\\Demo\\IOTStorageDemo\\StorageAccount.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M1084126\\Desktop\\StorageAccount1\\StorageAccount\\StorageAccount.csproj",
+        "projectUniqueName": "C:\\Code\\Demo\\IOTStorageDemo\\StorageAccount.csproj",
         "projectName": "StorageAccount",
-        "projectPath": "C:\\Users\\M1084126\\Desktop\\StorageAccount1\\StorageAccount\\StorageAccount.csproj",
-        "packagesPath": "C:\\Users\\M1084126\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M1084126\\Desktop\\StorageAccount1\\StorageAccount\\obj\\",
+        "projectPath": "C:\\Code\\Demo\\IOTStorageDemo\\StorageAccount.csproj",
+        "packagesPath": "C:\\Users\\vmadmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Demo\\IOTStorageDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M1084126\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vmadmin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
