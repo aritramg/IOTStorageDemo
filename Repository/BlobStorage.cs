@@ -7,7 +7,7 @@ namespace StorageAccount.Repository
 {
     public class BlobStorage
     {
-        static string connectionString="DefaultEndpointsProtocol=https;AccountName=saaritram;AccountKey=cn7fSh6+eKZ0hx7BcV6zWOp2rUOMsnYJf1BYX19Awm+JERvGRAMd+6Eh7YsGXVd0BUDEYhzuw6Pv+AStyfOQuA==;EndpointSuffix=core.windows.net";
+        static string connectionString="DefaultEndpointsProtocol=https;AccountName=teststoragearitram;AccountKey=CX4lN0u/c/2WLRO6CFblR61NZNN+FxsVfxIFBY0GfJQCj6NzzlEq+8f0Uk4Ss/WpG/aV8CSiKxYm+AStsyIQag==;EndpointSuffix=core.windows.net";
         public static async Task CreateBlob(string blobName)
         {
             if(string.IsNullOrEmpty(blobName))
